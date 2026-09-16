@@ -19,7 +19,7 @@ public class ClienteDAO {
                 +"rg, "
                 +"endereco, "
                 +"cidade, "
-                +"estado, "
+                +"estado " // Erro nesa parte, tinha que remover a virgula pra funcionar
                 +") VALUES(?,?,?,?,?,?,?,?,?,?)";
         try (
                 // Abre conexão
